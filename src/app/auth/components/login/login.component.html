@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="login-form">
+      <div class="row">
+        <div class="col-md-5"><img src="./assets/images/Frame 313.png" class="frameimg"></div>
+        <div class="col-md-7">
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <table class="ftable">
+              <tr>
+                <td><label for="email">Email</label></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="input-container">
+                    <input type="email" id="email" placeholder="example@gmail.com" class="field" formControlName="email">
+                    <img src="./assets/images/Layer 2.png" alt="Icon" class="placeholder-icon">
+                    <div class="vertical-line"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="password">Password</label></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="input-container">
+                    <input type="password" id="password" placeholder="**********" class="field" formControlName="password">
+                    <img src="./assets/images/Password.png" alt="Icon" class="placeholder-iconp">
+                    <div class="vertical-line"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><p>Forgot password?</p></td>
+              </tr>
+              <tr>
+                <td><input type="submit" value="Login" class="field" routerLink="/userlanding"></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="line"></div>
+      <p class="or">or</p>
+      <div class="line2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><img src="./assets/images/Google.png" class="icons"></div>
+      <div class="col-md-4"><img src="./assets/images/Apple.png" class="icons2"></div>
+      <div class="col-md-4"><img src="./assets/images/Facebook.png" class="icons3"></div>
+    </div>
+    <div class="row">
+      <p class="linkp">Don't have an Account?</p> 
+      <a class="link" routerLink="/auth/signup">Signup</a></div>
+    
+  </div>
+  
+

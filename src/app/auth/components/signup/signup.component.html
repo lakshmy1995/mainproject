@@ -1,0 +1,57 @@
+
+<div class="container signup">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Signup</h2>
+            <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+                <table>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><label for="email">Email</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="field" placeholder="Enter your name" formControlName="name"></td>
+                        <td><input type="email" class="field" placeholder="abc@abc.com" formControlName="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="phone">Phone</label></td>
+                        <td><label for="password">Password</label></td>
+                    </tr>  
+                   
+                    <tr>
+                        <td><input type="tel" class="field" placeholder="Enter your phone number" formControlName="phone"></td>
+                        <td><input type="password" class="field" placeholder="******" formControlName="password"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="address">Address</label></td>
+                        <td><label for="cpassword">Confirm Password</label></td>
+                    </tr>  
+
+                    <tr>
+                        <td><input type="text" class="field1" placeholder="Enter your address" formControlName="address"></td>
+                        <td><input type="password" class="field" placeholder="******" formControlName="cpassword"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="checkbox-label">
+                                <input type="checkbox"  name="agree" required>
+                               <p class="check"> I agree to the terms and conditions.</p>
+                              </label>
+                        </td>
+                    </tr>
+
+                   <button class="btn"> <i class="bi bi-arrow-right" style="color: white;" width="7px;" hight="2px;"></i></button>
+                </table>
+                <p >Already have an account? <a class="link" routerLink="/auth/login">signin</a></p>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <img src="./assets/images/Group 11053.png" class="imgb" alt="Image">
+        </div>
+        
+    </div>
+</div>
+

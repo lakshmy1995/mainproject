@@ -1,0 +1,190 @@
+/* input{
+    width: 100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    box-sizing:border-box;
+
+}
+
+.form{
+    border-radius:5px;
+    background: rgb(189, 188, 188);
+    padding: 30px;
+    width:400px;
+    margin:30px auto;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Itim');
+.login-form{ width: 696px;
+    height: 550px;
+    background-color: #78b689;
+    border-radius: 20px;
+    position: absolute;
+    top: 144px;
+    left: 413px;}
+
+ .frameimg{
+    position: relative;
+    top: 169px;
+    left: 74px;
+    width: 189px;
+    height: 183px;
+
+ }   
+
+ .field{
+    width:300px ; 
+    height: 50px;
+     background-color: #897c62; 
+     border: 1px solid white; border-radius: 15px;
+     padding: 5px;
+     color: white;
+     font-family:Itim ;
+   
+ }
+ .field::placeholder {
+    color:white;
+    font-size: 16px;
+    font-family: Itim;
+
+  }
+  
+
+ .field:hover{
+    border: 4px solid white;
+    color: aliceblue;
+    font-family: Itim;
+
+ }
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Itim';
+  }
+  
+  /* Additional styling for the forgot password text */
+  p {
+    margin-top: 10px;
+    margin-left:180px;
+    font-size: 14px;
+    color: rgb(242, 242, 245);
+    font-family: Itim;
+  }
+  
+ .ftable{
+    position: relative;
+    top:120px;
+    
+ }
+
+ .input-container {
+  position: relative;
+}
+
+.field {
+  padding-left:50px; 
+}
+
+.placeholder-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; 
+  transform: translateY(-50%);
+  width: 20px; 
+  height: 20px; 
+}
+
+.placeholder-iconp {
+  position: absolute;
+  top: 50%;
+  left: 10px; 
+  transform: translateY(-50%);
+  width: 38px; 
+  height: 38px; 
+
+}
+.vertical-line {
+  position: absolute;
+  top: 50%;
+  right: 251px;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 70%;
+  background-color: rgb(244, 239, 239);
+}
+
+.line{
+  height: 1px;
+  width: 96px;
+  background-color: aliceblue;
+  position: relative;
+  top: 569px;
+  left: 636px;
+  
+   float: left;
+}
+.line2{
+height: 1px;
+width: 96px;
+background-color: aliceblue;
+position: relative;
+top: 543px;
+left: 791px;
+float: left;}
+
+
+
+
+
+.or {
+  margin: 0 10px;
+  font-weight: bold;
+  color: rgb(250, 246, 246);
+  float: left;
+  position: relative;
+  top: 555px;
+  left: 734px;
+  font-size:18px;
+  font-family: Itim;
+}
+
+.icons{
+  position: relative;
+  top: 563px;
+  left: 626px;
+
+}
+
+.icons2{
+  position: relative;
+  top: 563px;
+  left: 289px;
+
+}
+
+.icons3{
+  position: relative;
+  top: 563px;
+  left: -60px;
+
+}
+
+input.ng-invalid.ng-touched{
+  border:rgb(245, 11, 11) 3px solid;
+}
+
+.link{position: relative;
+    top: 522px;
+    left: 813px;
+    color: aliceblue;
+    font-size: 15px;}
+
+.linkp {     position: relative;
+  top: 564px;
+  left: 432px;
+  color: rgb(245, 239, 239);
+  font-size: 19px;}     

@@ -1,0 +1,11 @@
+.pro{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fee4e4;
+    border-radius: 0;
+    font-weight: bold;
+    color: #58ad71cb;
+}
+.pro:hover{
+    background-color: #ff8080;
+    color: #fff;
+}

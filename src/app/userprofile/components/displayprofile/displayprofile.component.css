@@ -1,0 +1,41 @@
+.con
+{
+   display: inline-flex;
+   margin-top: 100px;
+   
+  
+}
+
+.rect
+{
+    width:150px;
+    height:180px;
+    margin-left: 10px;
+    -webkit-box-shadow: 2px 6px 10px 1px rgba(172,171,173,1);
+    -moz-box-shadow: 2px 6px 10px 1px rgba(172,171,173,1);
+    box-shadow: 2px 6px 10px 1px rgba(172,171,173,1);
+    border-radius: 10px;
+   
+}
+
+.user-data
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+.c1
+{
+    width:35%;
+    margin-left: 10px;
+}
+.s1
+{
+    width:200px;
+   
+}
+.s2
+{
+  width:400px;
+  padding-left: 20px;
+}

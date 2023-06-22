@@ -1,0 +1,51 @@
+<div class="text-center" style="padding-top: 4rem;">
+    <h1 class="all-products">All Orders</h1>
+</div>
+
+
+<div class="container">
+    <table class="table border bg-light" style="border: 1px solid gray;">
+        <thead>
+            <tr>
+                <th scope="col"><small style="color:darkgray"> Product</small></th>
+                <th scope="col"><small style="color:darkgray"> No of items</small></th>
+                <th scope="col"><small style="color:darkgray">total price</small></th>
+                <th scope="col"><small style="color:darkgray">User</small></th>
+                <th scope="col"><small style="color:darkgray">Order Status</small></th>
+                <th scope="col"><small style="color:darkgray">Accept</small></th>
+                <th scope="col"><small style="color:darkgray">Cancel</small></th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+
+            <tr><!-- *ngFor="let item of productdata"-->
+
+                <td><img style="width:50px;height:50px;" src="../../../../assets/images/Rectangle 15.png">Asus</td><!--{{item.image}}-->
+                <td>1 </td><!--{{item.quantity}}-->
+                <td>70,000</td><!--{{item.price}}-->
+                <td>vimal vimal@gmail.com</td><!--{{item.username}},{{item.email}}-->
+                <td>
+                    <select class="form-select" aria-label="Default select example" style="width: 135px;">
+                        <option selected>Pending</option>
+                        <option value="1">Complete</option>
+                    </select>
+                </td>
+                <td><i class="bi bi-check-circle" style="font-size: 20px;"></i></td>
+                <td><i class="bi bi-trash-fill" style="font-size: 20px;"></i></td>
+            </tr>
+            <tr>
+        </tbody>
+    </table>
+
+</div>
+<div class="container">
+    <div class="bg-light" style="margin-top: -16px;height: 2rem;opacity: 0.6;">
+        <button style="border:1px  solid grey;color:grey; margin-left:10px;float: left;border-radius: 10px;"><small>
+                << prevoius </small></button>
+        <small style="color:grey;margin-left: 450px;">page/10</small>
+        <button style="border:1px  solid grey;color:grey; margin-right:10px;float:right;border-radius: 10px;"><small>
+                next >> </small></button>
+    </div>
+</div>

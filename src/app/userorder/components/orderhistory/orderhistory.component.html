@@ -1,0 +1,81 @@
+<div class=" d-flex justify-content-start ">
+    
+    <div class="col s2 justify-content-start">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6"><!--*ngFor="let cdata of ohProducts"-->
+                    <div class="card mb-3" style="max-width: 500px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../../../assets/images/Rectangle 5-1.png" class="img-fluid rounded-start p-1"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">hess</h5><!--{{cdata?.productName}}-->
+
+                                    <p class="card-text"><small class="text-muted">category</small></p>
+                                    <!--{{cdata?.category}}-->
+                                    <span class="d-flex">
+                                        <h5 class="card-title">$ price /-</h5>
+                                        <i class="bi bi-eye" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                            style="margin-left: 60%;font-size: 20px;cursor: pointer;"></i>
+                                    </span><!--{{cdata?.amount}}-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="col-6 mb-3 mt-4">
+                        <label for="">PRODUCT NAME</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-6 mb-3 mt-4">
+                        <label for="">PRODUCT CATEGORY</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="">ORDERED DATE</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="">ORDER STATUS</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="">TOTAL PRICE</label>
+                        <input type="number" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--modal ends-->
+
+
+
+<!-- <app-footer></app-footer> -->

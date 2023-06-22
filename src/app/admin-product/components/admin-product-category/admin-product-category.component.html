@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <h4 class="btn btn-warning text-white my-5" style="margin-left: 6.1rem;">Product Category</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 category" *ngFor="let category of this.categoryService.categoryData">
+                <div class="shadow" style="background-color: white;">
+                    <img src={{category.image}} alt="" srcset="" class="img-fluid" [ngStyle]="{'height': '136px'}"><button
+                        class="btn mx-4 pro">{{category.category_name}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

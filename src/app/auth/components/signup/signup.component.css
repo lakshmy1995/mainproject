@@ -1,0 +1,83 @@
+.signup{
+    width: 790px;
+    height: 499px;
+    border: 2px black solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 144px;
+    left: 413px;}
+.signup h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+}
+    .imgb{
+      
+      
+         width: 395px;
+         height: 449px;
+         position: relative;
+         left: -150px;
+         top: 20px;
+    }
+
+    
+    .container.signup {
+       
+        margin-bottom: 20px;
+    }
+
+    form table {
+       
+        margin-bottom: 20px;
+    }
+
+    form table td {
+      
+        padding:5px;
+    }
+
+    form input,
+    /* form textarea {
+        
+        margin-bottom: 10px;
+        padding: 5px;
+    } */
+
+  .field{
+        border-radius: 10px;
+        background-color: #fafdff;  
+        border:1px solid #f0f1f2;
+        font-size: 12px;
+        height: 25px;
+        
+         padding: 3px; 
+      
+    }
+
+    .field1{
+        width: 150px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #fafdff;  
+        border:1px solid #f0f1f2;
+        font-size: 12px;
+    }   
+
+    .btn{
+        width: 50px;
+        height: 50px;
+        background-color: #f8a366;
+        margin-top:25px;
+        border-radius: 20px;
+    }
+  .check{
+    margin-top: -32px;
+    margin-left: 20px;
+  } 
+  
+  .link{color: #f8a366 ;}
+
+  input.ng-invalid.ng-touched{
+    border:rgb(245, 11, 11) 3px solid;
+}

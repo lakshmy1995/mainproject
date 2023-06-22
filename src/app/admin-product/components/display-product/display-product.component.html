@@ -1,0 +1,72 @@
+
+<div class="text-center" style="padding-top: 40px;">
+  <h1 class="all-products">All Products</h1>
+</div>
+<div class="container mt-2">
+  <div class="col-xs-3">
+      <div class="input-group mb-3 d-flex mx-auto" style="width: 50%;">
+          <input type="text" class="form-control input-sm" placeholder="search something.."
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn search" type="button" id="button-addon2">Search</button>
+      </div>
+  </div>
+</div>
+
+
+<div class="container">
+    <button class="btn btn-warning text-white my-4" mat-button (click)="openModal()">Add Product</button>
+    <table class="table border bg-light" style="border: 1px solid gray;">
+      <thead>
+        <tr>
+          <th scope="col"><small style="color:darkgray"> Product image</small> <i style="color:darkgray;"
+              class="bi-arrow-down"></i></th>
+          <th scope="col"><small style="color:darkgray"> Name</small> <i style="color:darkgray;"
+              class="bi-arrow-down"></i></th>
+          <th scope="col"><small style="color:darkgray"> Category</small> <i style="color:darkgray;"
+              class="bi-arrow-down"></i></th>
+          <th scope="col"><small style="color:darkgray"> Stock Quantity</small> <i style="color:darkgray;"
+              class="bi-arrow-down"></i></th>
+          <th scope="col"><small style="color:darkgray"> Unit Price</small> <i style="color:darkgray;"
+              class="bi-arrow-down"></i></th>
+          <th scope="col"><small style="color:darkgray"> Description</small> <i style="color:darkgray;"
+              class="bi-arrow-down"></i></th>
+          <th scope="col"><small style="color:darkgray"> Controls</small> <i style="color:darkgray;"
+              class="bi-arrow-down"></i></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        
+        <tr><!-- *ngFor="let item of productdata"-->
+          <td><img style="width:50px;height:50px;" src="../../../../assets/images/Rectangle 15.png"></td><!--{{item.image}}-->
+          <td>name </td><!--{{item.name}}-->
+          <td>category</td><!--{{item.category}}-->
+          <td>stock</td><!--{{item.stockquantity}}-->
+          <td>price </td><!--{{item.price|currency }}-->
+          <td>description</td><!--{{item.description}}-->
+          <td><i class="bi bi-pencil-square" style="font-size: 20px;"></i></td>
+          <td><i class="bi bi-trash-fill" style="font-size: 20px;"></i></td>
+        </tr>
+        <tr>
+
+      </tbody>
+
+
+
+
+
+    </table>
+
+  </div>
+  <div class="container">
+    <div class="bg-light" style="margin-top: -16px;height: 2rem;opacity: 0.6;">
+        <button style="border:1px  solid grey;color:grey; margin-left:10px;float: left;border-radius: 10px;"
+            ><small>
+                << prevoius </small></button>
+        <small style="color:grey;margin-left: 450px;">page/10</small>
+        <button style="border:1px  solid grey;color:grey; margin-right:10px;float:right;border-radius: 10px;"
+            ><small> next >> </small></button>
+    </div>
+</div> 

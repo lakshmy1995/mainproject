@@ -1,0 +1,52 @@
+<div class="text-center" style="padding-top: 4rem;">
+    <h1 class="all-products">All Categories</h1>
+</div>
+<div class="container mt-2">
+    <div class="col-xs-3">
+        <div class="input-group mb-3 d-flex mx-auto" style="width: 50%;">
+            <input type="text" class="form-control input-sm" placeholder="search something.."
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn search" type="button" id="button-addon2">Search</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <button class="btn btn-warning my-4 text-white">Add New Category</button>
+    <table class="table border bg-light" style="border: 1px solid gray;">
+        <thead>
+            <tr>
+                <th scope="col"><small style="color:darkgray"> Category Name</small></th>
+                <th scope="col"><small style="color:darkgray"> Description</small></th>
+                <th scope="col"><small style="color:darkgray">Image</small></th>
+                <th scope="col"><small style="color:darkgray"> Controls</small></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+
+            <tr><!-- *ngFor="let item of productdata"-->
+                <td>Category Name </td><!--{{item.cateory}}-->
+                <td>description</td><!--{{item.description}}-->
+                <td><img style="width:50px;height:50px;" src="../../../../assets/images/Rectangle 15.png"></td><!--{{item.image}}-->
+                <td><i class="bi bi-pencil-square" style="font-size: 20px;"></i></td>
+                <td><i class="bi bi-trash-fill" style="font-size: 20px;"></i></td>
+            </tr>
+            <tr>
+
+        </tbody>
+    </table>
+
+</div>
+<div class="container">
+    <div class="bg-light" style="margin-top: -16px;height: 2rem;opacity: 0.6;">
+        <button style="border:1px  solid grey;color:grey; margin-left:10px;float: left;border-radius: 10px;"><small>
+                << previous </small></button>
+        <small style="color:grey;margin-left: 450px;">page/10</small>
+        <button style="border:1px  solid grey;color:grey; margin-right:10px;float:right;border-radius: 10px;"><small>
+                next >> </small></button>
+    </div>
+</div>

@@ -1,0 +1,150 @@
+<!-- Modal -->
+<!-- <div class="modal-overlay">
+  <div class="modal-content">
+    <div class="container">
+      <div class="box">
+        <div class="row">
+        <h2>Add product</h2>
+        <form [formGroup]="myform" (ngSubmit)="onSubmitForm()">
+          <div class="col-6">
+            <table>
+              <tr>
+                <td><label for="cat">
+                    <P class="label">Product Name</P>
+                  </label></td>
+              </tr>
+              <tr> <input type="text" class="cat" formControlName="pname"></tr>
+
+              <br>
+              <tr>
+                <td><label for="cat">
+                    <P class="label">Product Category</P>
+                  </label></td>
+              </tr>
+              <tr> <input type="text" class="cat" formControlName="pcat"></tr>
+              <br>
+
+              <tr>
+                <td><label for="cat">
+                    <P class="label">Product price</P>
+                  </label></td>
+              </tr>
+              <tr> <input type="text" class="cat" formControlName="pprice"></tr>
+              <br>
+
+              <tr>
+                <td><label for="cat">
+                    <P class="label">available stock</P>
+                  </label></td>
+              </tr>
+              <tr> <input type="text" class="cat" formControlName="pstock"></tr>
+              <br>
+
+              <tr>
+                <td><label for="cat">
+                    <P class="label">Product Description</P>
+                  </label></td>
+              </tr>
+              <tr> <input type="text" class="des" formControlName="pdes"></tr>
+              <br>
+            </table>
+
+          </div>
+          <div class="col-6">
+            <div><input type="file"></div>
+
+          </div>
+          <input type="submit" value="save" class="save">
+
+        </form>
+
+      </div>
+    </div>
+    </div>
+
+  </div>
+</div> -->
+
+
+<div class="modal-overlay">
+  <div class="modal-content">
+    <div class="container">
+      <div class="box">
+        <h2>Add product</h2>
+        <form [formGroup]="myform" (ngSubmit)="onSubmitForm()">
+          <div class="col-6">
+            <table>
+              <tr>
+                <td>
+                  <label for="cat">
+                    <P class="label">Product Name</P>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <input type="text" class="cat" formControlName="pname">
+              </tr>
+              <br>
+              <tr>
+                <td>
+                  <label for="cat">
+                    <P class="label">Product Category</P>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <input type="text" class="cat" formControlName="pcat">
+              </tr>
+              <br>
+              <tr>
+                <td>
+                  <label for="cat">
+                    <P class="label">Product price</P>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <input type="text" class="cat" formControlName="pprice">
+              </tr>
+              <br>
+              <tr>
+                <td>
+                  <label for="cat">
+                    <P class="label">available stock</P>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <input type="text" class="cat" formControlName="pstock">
+              </tr>
+              <br>
+              <tr>
+                <td>
+                  <label for="cat">
+                    <P class="label">Product Description</P>
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <input type="text" class="des" formControlName="pdes">
+              </tr>
+              <br>
+              <tr>
+                <td>
+                  <div class="col-6">
+                    <div>
+                      <input type="file">
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-6">
+            <input type="submit" value="save" class="save">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

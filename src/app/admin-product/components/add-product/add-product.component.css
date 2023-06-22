@@ -1,0 +1,87 @@
+
+/* Previous page content */
+
+
+/* .page-content {
+    /* Styles for the previous page content 
+  } */
+  
+
+  
+  /* Modal overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 9999; /* Adjust the z-index to ensure the modal is on top */
+    backdrop-filter: blur(5px); /* Applies blur effect to the previous page */
+  }
+  
+  /* Modal content */
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Styles for the modal content */
+  }
+  
+
+  .box{
+    background-color: #ff8a00;
+    width:650px;
+    height:650px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-left: 350px;
+    border-radius: 10px;
+    }
+  .box h2{
+      font-size:40px;
+  }
+  
+  .cat{
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid white;
+      width: 210px;
+  }
+  
+  .des{
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid white;
+      height: 100px;
+      width: 210px;
+      
+  }
+  
+  .save{
+      width: 173px;
+      height: 40px;
+      background-color: blue;
+      margin-top: 50px;
+      color: aliceblue;
+      border: none;
+      margin-left: -67px;
+  }
+  
+  .lock{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -473px;
+    left: 211px;
+  }
+  
+  .label{
+      margin-left:-50px;
+  }
+
+  input.ng-invalid.ng-touched{
+    border:rgb(245, 11, 11) 3px solid;
+}

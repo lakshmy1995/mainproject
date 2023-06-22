@@ -1,0 +1,49 @@
+.i2
+{
+height: 8rem;
+padding: 5px;
+
+
+}
+.card2
+{
+    border:1px solid rgb(218, 214, 214);
+}
+.btn1
+{
+    
+    color:rgb(24, 23, 23);
+    border-radius: 5px;
+    width: 160px;
+    height: 35px;
+    position: relative;
+    left: 120px;
+    color: white;
+}
+.t2
+{
+    color:#78b689;
+}
+.c1
+{
+    width:35%;
+    margin-left: 10px;
+}
+.s1
+{
+    width:200px;
+   
+}
+.s2
+{
+  width:400px;
+  padding-left: 20px;
+}
+.login{
+    background-color: rgb(4, 182, 126);
+    color: white;
+    margin-left: 1rem;
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+}

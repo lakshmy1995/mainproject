@@ -1,0 +1,75 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "NT Infotech",
+      "password": "Test$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "Jhon1",
+      "name": "NT Infotech",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "ntuser",
+      "name": "ramesh",
+      "password": "Test@1234",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "banglore"
+      }
+    },
+    {
+      "id": "shirin",
+      "name": "shirinvr",
+      "password": "123456",
+      "email": "shirinvr1725@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "email": "shirinvr1725@gmail.com",
+      "password": "456123",
+      "id": "tp8j2Ji"
+    },
+    {
+      "name": "shirin",
+      "email": "shirn@gmail.com",
+      "phone": "04567887543",
+      "password": "171717",
+      "cpassword": "17717",
+      "address": "jfjfiiididiid",
+      "id": "ggghDtV"
+    }
+  ]
+}

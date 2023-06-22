@@ -1,0 +1,41 @@
+<div class="text-center py-5">
+    <h1 class="all-products">All Products</h1>
+</div>
+
+
+<div class="container py-2">
+    <div class="col-xs-3">
+        <div class="input-group mb-3 d-flex mx-auto" style="width: 50%;">
+            <input type="text" class="form-control input-sm" placeholder="search something.."
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn search" type="button" id="button-addon2">Search</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let product of this.productService.allproduct">
+            <div class="card" style="width: 15rem;">
+                <img src={{product.image}} class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="card-title title1">{{product.category}}</h6>
+                    <h5 class="card-title">{{product.productName}}</h5>
+                    <p class="card-text">{{product.productDesc}}</p>
+                    <div class="row">
+                        <div class="col">
+                            <h5>{{product.amount}}</h5>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="btn buy " routerLink="/placeorder">Buy &nbsp; <img src="../../assets/images/bag-plus 1.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

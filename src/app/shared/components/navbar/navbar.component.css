@@ -1,0 +1,27 @@
+
+.navbarlink{
+    margin-left: 23.5rem;
+}
+
+.login{
+    background-color: rgb(4, 182, 126);
+    color: white;
+    margin-left: 1rem;
+}
+
+.signup{
+    background-color: rgb(235, 179, 179);
+    color: rgb(0, 128, 87);
+}
+
+.login,.signup{
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+}
+
+.admin{
+    background-color: rgb(4, 182, 126);
+    color: white;
+    margin-left: 1rem;
+}

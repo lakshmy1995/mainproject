@@ -1,0 +1,66 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+  .ima{
+    filter: blur(5px);
+  }
+.card {
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.title1{
+    color: #D3D3D3;
+    font-weight: 350;
+}
+.card-text{
+    font-size: 10px;
+    
+}
+.buy{
+    background-color: #ffeeeb;
+    color: #4cb96d;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300; 
+    border-radius: 0; 
+}
+.card-title,h5{
+    font-weight: bold;
+}
+
+
+
+
+.search{
+    background-color: #f28b0ecb;
+    border-radius: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+input{
+    border: none;
+    box-shadow:  0px 2px 0.5pt #f7efef
+
+}
+::placeholder{
+    color: grey;
+}
+input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+   
+  }
+.all-products{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+  
